@@ -33,7 +33,7 @@ def main():
         instructions="A helpful assistant that can answer questions and provide information.",
         model=model,
     )
-    result = Runner.run_sync(agent, "How are you?")
+    result = Runner.run_sync(agent, "Hello ai")
     print("\n")
     print(result.final_output)
     print("\n")
