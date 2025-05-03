@@ -1,0 +1,20 @@
+[project]
+name = "agent-sdk"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Amna-AzamK", email = "163852452+Amna-AzamK@users.noreply.github.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "openai-agents>=0.0.14",
+    "python-dotenv>=1.1.0",
+]
+
+[project.scripts]
+run-fun="agent_sdk.global_agent:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
